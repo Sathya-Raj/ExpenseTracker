@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mainpage"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+    <item android:id="@+id/analysis"
+        android:title="Analysis"
+        android:icon="@drawable/ic_chart"
+        />
+    <item android:id="@+id/placeholder"
+        android:title=""
+
+        />
+    <item android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/ic_person"
+        />
+    <item android:id="@+id/history"
+        android:title="Exit"
+        android:icon="@drawable/ic_logout"
+        />
+
+
+</menu>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/swiperefresh"
+    tools:context=".Mainpage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".Mainpage">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            app:layout_anchorGravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="8dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/usergreeting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="28dp"
+                        android:text="Hi,"
+                        android:textColor="@color/dark_blue"
+                        android:textSize="28dp"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="22dp"
+                        android:layout_marginTop="22dp"
+
+                        android:layout_marginEnd="22dp"
+                        android:layout_marginBottom="22dp"
+                        android:background="@drawable/ic_addiconbg"
+                        android:src="@drawable/ic_logout"
+                        app:tint="@color/white" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/imageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/ic_debitcard"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/netbalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Net Balance"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/netbalance_amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/netbalance"
+                        android:layout_marginLeft="7dp"
+                        android:drawableLeft="@drawable/ic_rupees"
+                        android:drawableTint="@color/white"
+                        android:text="0"
+                        android:textSize="35dp"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/netincome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/netbalance_amt"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="39dp"
+
+                        android:text="Net Expense"
+
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/netexpense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/netbalance_amt"
+                        android:layout_marginLeft="111dp"
+                        android:layout_marginTop="39dp"
+
+                        android:layout_marginBottom="48dp"
+
+                        android:layout_toRightOf="@+id/netincome"
+                        android:text="Net Income"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/netexpense_amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/netincome"
+
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_down_arrow"
+                        android:drawablePadding="5dp"
+                        android:drawableTint="#f78888"
+                        android:text="0"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/netincome_amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/netincome"
+
+                        android:layout_marginLeft="111dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/netincome"
+                        android:drawableStart="@drawable/ic_up_arrow"
+                        android:drawablePadding="5dp"
+                        android:drawableTint="@color/green"
+                        android:text="0"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Analytics >>"
+
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="7dp"
+                    android:weightSum="2">
+
+                    <RadioGroup
+                        android:id="@+id/radio_TypeG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/incomeAnalysis"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="25dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/income_selected"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="15dp"
+                            android:text="INCOME"
+                            android:textColor="@drawable/textcolor" />
+
+                        <RadioButton
+                            android:id="@+id/expenseAnalysis"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:background="@drawable/expense_selected"
+                            android:button="@android:color/transparent"
+                            android:gravity="center"
+                            android:padding="15dp"
+                            android:text="EXPENSE"
+                            android:textColor="@drawable/textcolor" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/ic_analystics"
+                    android:gravity="center"
+                    android:minHeight="380dp"
+                    >
+
+                    <com.github.mikephil.charting.charts.PieChart
+                        android:id="@+id/piechart"
+                        android:layout_width="300dp"
+                        android:layout_height="350dp"
+
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="21dp"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Recent Transactions"
+                    android:textColor="@color/dark_blue"
+
+                    android:textSize="16sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/history_recycler_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="377dp" />
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="23dp"
+            android:width="110dp"
+            android:height="60dp"
+
+            android:backgroundTint="@color/light_blue"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Add "
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+

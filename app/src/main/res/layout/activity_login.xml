@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Login">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome back!"
+        android:textAlignment="textStart"
+        android:textColor="#072DB3"
+        android:textColorLink="@color/dark_blue"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineHeight="45sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="sans-serif"
+        android:text="You've been missed.        Get back to tracking now."
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/l_email"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/textboxbackground"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/dark_blue"
+        android:textColorHint="@color/grey"
+        android:textColorLink="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/l_pass"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/textboxbackground"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/sign_In"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l_email"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/acnt_exists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="Forgot Password? Click here."
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l_pass" />
+
+    <Button
+        android:id="@+id/sign_In"
+        android:layout_width="308dp"
+        android:layout_height="61dp"
+
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="38dp"
+        android:backgroundTint="#ADCEED"
+        android:text="Sign-in"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

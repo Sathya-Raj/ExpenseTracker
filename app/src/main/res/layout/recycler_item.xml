@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:backgroundTint="@color/white"
+    android:background="?selectableItemBackground"
+    app:cardCornerRadius="18dp">
+    <View
+        android:id="@+id/trtype"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/type_inc"
+        android:layout_gravity="end"/>
+    <LinearLayout
+        android:id="@+id/icon"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:background="@drawable/ic_addiconbg"
+
+            >
+
+            <View
+                android:id="@+id/flag"
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:background="@drawable/ic_shoping"
+                android:backgroundTint="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                >
+                <View
+                    android:layout_marginTop="2dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@drawable/ic_rupees"
+                    android:backgroundTint="@color/dark_blue"
+
+                    />
+                <TextView
+                    android:id="@+id/amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="340"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:maxLength="48"
+                    android:textColor="@color/dark_blue"
+                    android:shadowColor="@color/light_blue"
+                    />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="2 july 2022  03:59"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/grey"/>
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_width="257dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="4dp"
+                android:lineHeight="20dp"
+                android:maxLength="200"
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:text="My note My noteMy noteMy noteMy noteMy noteMy noteMy noteMy   noteMy  note My note  "
+                android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

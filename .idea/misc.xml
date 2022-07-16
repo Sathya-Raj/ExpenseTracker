@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/expense_selected.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/gradient_background.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/gradient_background_card.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_add.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_addiconbg.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_analystics.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_baseline_celebration_24.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_chart.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_down_arrow.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_education.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_fuel.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_health.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_home.xml" value="0.148" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_lend.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_logout.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_person.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_rupee.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_rupees.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_shoping.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_up_arrow.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/ic_uparrow.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/income_selected.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/infobox.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/radio_btns.xml" value="0.162" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/radio_selected.xml" value="0.161" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/radio_selector.xml" value="0.161" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/textboxbackground.xml" value="0.231" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/textcolor.xml" value="0.161" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/type_exp.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/drawable/type_inc.xml" value="0.215" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_add_transaction.xml" value="0.25" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_mainpage.xml" value="0.25" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/activity_update.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/content_scrolling.xml" value="0.22" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/fragment_account.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/fragment_analysis.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/fragment_history.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/fragment_home_page.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/layout/recycler_item.xml" value="0.25" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/menu/menu_mainpage.xml" value="0.22447916666666667" />
+        <entry key="..\:/Expense_tracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2215" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
